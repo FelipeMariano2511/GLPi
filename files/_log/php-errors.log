@@ -1,0 +1,506 @@
+[2023-09-05 18:36:38] glpiphplog.WARNING: Test logger  
+[2023-09-05 18:38:02] glpiphplog.WARNING: Test logger  
+[2023-09-06 16:53:08] glpiphplog.WARNING:   *** PHP User Warning (512): Duplicated document item relation in C:\xampp\htdocs\glpi\src\Document_Item.php at line 135
+  Backtrace :
+  src\Document_Item.php:135                          trigger_error()
+  src\CommonDBTM.php:1278                            Document_Item->prepareInputForAdd()
+  src\CommonDBTM.php:5588                            CommonDBTM->add()
+  src\ITILFollowup.php:243                           CommonDBTM->addFiles()
+  src\CommonDBTM.php:1324                            ITILFollowup->post_addItem()
+  src\MailCollector.php:936                          CommonDBTM->add()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-06 16:57:42] glpiphplog.WARNING:   *** PHP User Warning (512): Duplicated document item relation in C:\xampp\htdocs\glpi\src\Document_Item.php at line 135
+  Backtrace :
+  src\Document_Item.php:135                          trigger_error()
+  src\CommonDBTM.php:1278                            Document_Item->prepareInputForAdd()
+  src\CommonDBTM.php:5588                            CommonDBTM->add()
+  src\ITILFollowup.php:243                           CommonDBTM->addFiles()
+  src\CommonDBTM.php:1324                            ITILFollowup->post_addItem()
+  src\MailCollector.php:936                          CommonDBTM->add()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 1930
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1455    PluginMreportingGraphpng->showArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showLine()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 1930
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1455    PluginMreportingGraphpng->showArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showLine()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:52] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 2246
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1718    PluginMreportingGraphpng->showGArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showGline()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:53] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $x2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 1930
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1455    PluginMreportingGraphpng->showArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showLine()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 10:46:53] glpiphplog.WARNING:   *** PHP Warning (2): Undefined variable $y2 in C:\xampp\htdocs\glpi\marketplace\mreporting\inc\graphpng.class.php at line 1930
+  Backtrace :
+  marketplace\mreporting\inc\graph.class.php:1455    PluginMreportingGraphpng->showArea()
+  marketplace\mreporting\inc\common.class.php:649    PluginMreportingGraph->showLine()
+  ...nc\notificationtargetnotification.class.php:113 PluginMreportingCommon->showGraph()
+  ...inc\notificationtargetnotification.class.php:50 PluginMreportingNotificationTargetNotification->_buildPDF()
+  src\NotificationTarget.php:1360                    PluginMreportingNotificationTargetNotification->addDataForTemplate()
+  src\NotificationTemplate.php:278                   NotificationTarget->getForTemplate()
+  ...\mreporting\inc\notificationevent.class.php:105 NotificationTemplate->getTemplateByLanguage()
+  ...place\mreporting\inc\notification.class.php:182 PluginMreportingNotificationEvent::raiseEvent()
+  src\CronTask.php:1018                              PluginMreportingNotification::cronSendNotifications()
+  front\crontask.form.php:52                         CronTask::launch()
+  
+[2023-09-11 11:31:09] glpiphplog.WARNING:   *** PHP User Warning (512): Duplicated document item relation in C:\xampp\htdocs\glpi\src\Document_Item.php at line 135
+  Backtrace :
+  src\Document_Item.php:135                          trigger_error()
+  src\CommonDBTM.php:1278                            Document_Item->prepareInputForAdd()
+  src\CommonDBTM.php:5588                            CommonDBTM->add()
+  src\ITILFollowup.php:243                           CommonDBTM->addFiles()
+  src\CommonDBTM.php:1324                            ITILFollowup->post_addItem()
+  src\MailCollector.php:936                          CommonDBTM->add()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 10:03:14] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-09-13 10:04:04] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 10:05:04] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 10:06:03] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 10:07:05] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 10:08:04] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 11:35:04] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 15:03:35] glpiphplog.WARNING: Test logger  
+[2023-09-13 16:28:03] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 16:29:03] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 16:30:03] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 16:31:03] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 16:32:03] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 16:33:03] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Storage\Exception\RuntimeException: cannot change folder, maybe it does not exist in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Storage\Imap.php at line 386
+  Backtrace :
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:227 Laminas\Mail\Storage\Imap->selectFolder()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 16:53:45] glpiphplog.WARNING: Test logger  
+[2023-09-13 16:54:05] glpiphplog.WARNING: Test logger  
+[2023-09-13 16:55:35] glpiphplog.WARNING: Test logger  
+[2023-09-13 17:05:11] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:05:47] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-09-13 17:06:11] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:07:11] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:08:11] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:09:11] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:10:11] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:11:00] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-09-13 17:11:12] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:17:11] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  src\MailCollector.php:1888                         MailCollector->collect()
+  src\CronTask.php:1018                              MailCollector::cronMailgate()
+  front\cron.php:83                                  CronTask::launch()
+  
+[2023-09-13 17:17:32] glpiphplog.CRITICAL:   *** Uncaught Exception Laminas\Mail\Protocol\Exception\RuntimeException: cannot read - connection closed? in C:\xampp\htdocs\glpi\vendor\laminas\laminas-mail\src\Protocol\Imap.php at line 110
+  Backtrace :
+  ...\laminas\laminas-mail\src\Protocol\Imap.php:125 Laminas\Mail\Protocol\Imap->nextLine()
+  ...r\laminas\laminas-mail\src\Protocol\Imap.php:87 Laminas\Mail\Protocol\Imap->assumedNextLine()
+  ...r\laminas\laminas-mail\src\Storage\Imap.php:223 Laminas\Mail\Protocol\Imap->connect()
+  src\Toolbox.php:2205                               Laminas\Mail\Storage\Imap->__construct()
+  src\MailCollector.php:1404                         Toolbox::getMailServerStorageInstance()
+  src\MailCollector.php:698                          MailCollector->connect()
+  front\mailcollector.form.php:103                   MailCollector->collect()
+  
+[2023-09-13 17:29:52] glpiphplog.WARNING: Test logger  
+[2023-09-14 09:31:25] glpiphplog.WARNING: Test logger  
+[2023-09-14 09:32:11] glpiphplog.WARNING: Test logger  
+[2023-09-14 09:34:42] glpiphplog.WARNING: Test logger  

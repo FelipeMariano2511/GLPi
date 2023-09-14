@@ -1,0 +1,413 @@
+[2023-09-06 10:39:28] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: INSERT INTO `glpi_notifications_notificationtemplates` (`notifications_id`, `mode`, `notificationtemplates_id`) VALUES ('2', 'mailing', '4')
+  Error: Duplicate entry '2-mailing-4' for key 'unicity'
+  Backtrace :
+  src\DBmysql.php:1348                               
+  src\CommonDBTM.php:722                             DBmysql->insert()
+  src\CommonDBTM.php:1323                            CommonDBTM->addToDB()
+  ...t\notification_notificationtemplate.form.php:50 CommonDBTM->add()
+  {"user":"2@DELL-MINI-PC"} 
+[2023-09-14 10:20:00] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:20:23] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:44:47] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:45:28] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:45:28] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:45:29] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:51:30] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: UPDATE `glpi_configs` SET WHERE `id` = '312'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '312'' at line 1
+  Backtrace :
+  src\DBmysql.php:1468                               
+  src\CommonDBTM.php:683                             DBmysql->update()
+  src\CommonDBTM.php:1672                            CommonDBTM->updateInDB()
+  src\Config.php:3012                                CommonDBTM->update()
+  src\Config.php:170                                 Config::setConfigurationValues()
+  src\CommonDBTM.php:1589                            Config->prepareInputForUpdate()
+  front\config.form.php:65                           CommonDBTM->update()
+  {"user":"2@DELL-MINI-PC"} 
+[2023-09-14 10:51:37] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:53:49] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:54:05] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:55:15] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: UPDATE `glpi_configs` SET WHERE `id` = '312'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '312'' at line 1
+  Backtrace :
+  src\DBmysql.php:1468                               
+  src\CommonDBTM.php:683                             DBmysql->update()
+  src\CommonDBTM.php:1672                            CommonDBTM->updateInDB()
+  src\Config.php:3012                                CommonDBTM->update()
+  src\Config.php:170                                 Config::setConfigurationValues()
+  src\CommonDBTM.php:1589                            Config->prepareInputForUpdate()
+  front\config.form.php:65                           CommonDBTM->update()
+  {"user":"2@DELL-MINI-PC"} 
+[2023-09-14 10:55:15] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: UPDATE `glpi_configs` SET WHERE `id` = '313'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '313'' at line 1
+  Backtrace :
+  src\DBmysql.php:1468                               
+  src\CommonDBTM.php:683                             DBmysql->update()
+  src\CommonDBTM.php:1672                            CommonDBTM->updateInDB()
+  src\Config.php:3012                                CommonDBTM->update()
+  src\Config.php:170                                 Config::setConfigurationValues()
+  src\CommonDBTM.php:1589                            Config->prepareInputForUpdate()
+  front\config.form.php:65                           CommonDBTM->update()
+  {"user":"2@DELL-MINI-PC","mem_usage":"0.003\", 18.49Mio)"} 
+[2023-09-14 10:55:19] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:56:04] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: UPDATE `glpi_configs` SET WHERE `id` = '312'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '312'' at line 1
+  Backtrace :
+  src\DBmysql.php:1468                               
+  src\CommonDBTM.php:683                             DBmysql->update()
+  src\CommonDBTM.php:1672                            CommonDBTM->updateInDB()
+  src\Config.php:3012                                CommonDBTM->update()
+  src\Config.php:170                                 Config::setConfigurationValues()
+  src\CommonDBTM.php:1589                            Config->prepareInputForUpdate()
+  front\config.form.php:65                           CommonDBTM->update()
+  {"user":"2@DELL-MINI-PC"} 
+[2023-09-14 10:56:04] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: UPDATE `glpi_configs` SET WHERE `id` = '313'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '313'' at line 1
+  Backtrace :
+  src\DBmysql.php:1468                               
+  src\CommonDBTM.php:683                             DBmysql->update()
+  src\CommonDBTM.php:1672                            CommonDBTM->updateInDB()
+  src\Config.php:3012                                CommonDBTM->update()
+  src\Config.php:170                                 Config::setConfigurationValues()
+  src\CommonDBTM.php:1589                            Config->prepareInputForUpdate()
+  front\config.form.php:65                           CommonDBTM->update()
+  {"user":"2@DELL-MINI-PC","mem_usage":"0.002\", 18.49Mio)"} 
+[2023-09-14 10:56:08] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 10:59:06] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
+[2023-09-14 11:00:19] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: UPDATE `glpi_configs` SET WHERE `id` = '312'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '312'' at line 1
+  Backtrace :
+  src\DBmysql.php:1468                               
+  src\CommonDBTM.php:683                             DBmysql->update()
+  src\CommonDBTM.php:1672                            CommonDBTM->updateInDB()
+  src\Config.php:3012                                CommonDBTM->update()
+  src\Config.php:170                                 Config::setConfigurationValues()
+  src\CommonDBTM.php:1589                            Config->prepareInputForUpdate()
+  front\config.form.php:65                           CommonDBTM->update()
+  {"user":"2@DELL-MINI-PC"} 
+[2023-09-14 11:00:19] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: UPDATE `glpi_configs` SET WHERE `id` = '314'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE `id` = '314'' at line 1
+  Backtrace :
+  src\DBmysql.php:1468                               
+  src\CommonDBTM.php:683                             DBmysql->update()
+  src\CommonDBTM.php:1672                            CommonDBTM->updateInDB()
+  src\Config.php:3012                                CommonDBTM->update()
+  src\Config.php:170                                 Config::setConfigurationValues()
+  src\CommonDBTM.php:1589                            Config->prepareInputForUpdate()
+  front\config.form.php:65                           CommonDBTM->update()
+  {"user":"2@DELL-MINI-PC","mem_usage":"0.047\", 19.99Mio)"} 
+[2023-09-14 11:00:25] glpisqllog.ERROR: DBmysql::query() in C:\xampp\htdocs\glpi\src\DBmysql.php line 379
+  *** MySQL query error:
+  SQL: SHOW COLUMNS FROM `glpi_plugin_customlogin_configs`
+  Error: Table 'central_atendimento_db.glpi_plugin_customlogin_configs' doesn't exist
+  Backtrace :
+  src\DBmysql.php:911                                
+  src\CommonDBTM.php:612                             DBmysql->listFields()
+  plugins\customlogin\inc\config.class.php:38        CommonDBTM->getEmpty()
+  plugins\customlogin\hook.php:295                   PluginCustomloginConfig::getConfig()
+  plugins\customlogin\hook.php:483                   plugin_glpi10()
+  src\Plugin.php:1669                                plugin_customlogin_display_login()
+  ...plication\View\Extension\PluginExtension.php:67 Plugin::doHook()
+  ...tes\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:243 Glpi\Application\View\Extension\PluginExtension->callPluginHook()
+  vendor\twig\twig\src\Template.php:171              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->block_content_block()
+  ...tes\40\40b2861ed6cde4fda11503e7e4d2fdc8.php:108 Twig\Template->displayBlock()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_c97bcbeaada97ee1b44adbe9897575a5->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  ...ates\e3\e372b0a4e1c01cd3ec5bfb9cd08b52b1.php:44 Twig\Template->display()
+  vendor\twig\twig\src\Template.php:394              __TwigTemplate_2158f4fe498adc30e36bb2a47799c579->doDisplay()
+  vendor\twig\twig\src\Template.php:367              Twig\Template->displayWithErrorHandling()
+  vendor\twig\twig\src\TemplateWrapper.php:47        Twig\Template->display()
+  src\Application\View\TemplateRenderer.php:184      Twig\TemplateWrapper->display()
+  index.php:137                                      Glpi\Application\View\TemplateRenderer->display()
+  {"user":"@DELL-MINI-PC"} 
